@@ -22,7 +22,7 @@ public class Empleado {
 	public float calculoNominaNeta(float nominaBruta) {
 		float salario;		
 		
-		if(nominaBruta<2100)
+		if(nominaBruta<=2100)
 			salario= nominaBruta;
 		else if(nominaBruta<2500)
 			salario = nominaBruta * (1-0.15f);
